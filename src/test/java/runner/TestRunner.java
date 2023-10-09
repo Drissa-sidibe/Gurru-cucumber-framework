@@ -7,9 +7,9 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 //        features = {".//Features//registration.feature"},
-        features = {".//Features//Login.feature"},
+//        features = {".//Features//Login.feature"},
         //features = {".//Features//DataDrivenLogin.feature"},
-//        features = {".//Features//DataDrivenLoginWithExcel.feature"},
+        features = {".//Features//DataDrivenLoginWithExcel.feature"},
         glue = "stepDefinitions",
         plugin = {
                 "pretty","html:reports/myreports.html",
